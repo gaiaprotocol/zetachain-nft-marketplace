@@ -1,0 +1,13 @@
+{
+  "extends": ["solhint:default", "solhint:recommended"],
+  "plugins": [],
+  "rules": {
+    "max-line-length": "off",
+    "reason-string": "off",
+    "var-name-mixedcase": "off",
+    "quotes": "off",
+    "func-name-mixedcase": "off",
+    "mark-callable-contracts": "off",
+    "compiler-version": ["off", "^0.8.0"]
+  }
+}
